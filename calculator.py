@@ -6,3 +6,16 @@ def product_of_list(numbers):
     for num in numbers:
         product *= num
     return product
+
+def main():
+    numbers = input("Enter numbers separated by spaces: ").split()
+    numbers = [int(num) for num in numbers]  # Convert strings to integers
+
+    total = sum_of_list(numbers)
+    product_total = product_of_list(numbers)
+
+    print(f"Sum: {total}")
+    print(f"Product: {product_total}")
+
+if __name__ == "__main__":
+    main()
