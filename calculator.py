@@ -17,6 +17,10 @@ def main():
     print(f"Sum: {total}")
     print(f"Product: {product_total}")
 
+    reversed_numbers = reverse_list(numbers)
+    print(f"Reversed: {reversed_numbers}")
+
+
 if __name__ == "__main__":
     main()
 
