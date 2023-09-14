@@ -26,3 +26,4 @@ if __name__ == "__main__":
 
 def reverse_list(numbers):
     return numbers[::-1]
+#new comment lol
